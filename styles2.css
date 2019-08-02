@@ -1,0 +1,1303 @@
+.navbar {
+  padding-left: 30px;
+  overflow: hidden;
+  background-color: #FFEA00;
+  font-family: Arial;
+  height: 100px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: black;
+  font-family: "La Belle Aurore";
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ }
+.logo{
+  position:absolute;
+  height: 100px;
+  Width: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 10px;
+  object-fit: cover;
+}
+.logo-img {
+  justify-content: flex-start;
+  width: 100px;
+  object-fit: cover;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: right;
+  overflow: hidden;
+  font-family: "La Belle Aurore";
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: grey;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.accordion {
+  background-color: #afb9c3;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 125%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.smores {
+background-image: url("https://images-gmi-pmc.edge-generalmills.com/ec3394e9-4171-47a2-85df-97e03f92234d.jpg");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.scroll {
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -65%);
+  z-index: 2;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+.active, .accordion:hover {
+  background-color: #fff9b3;
+}
+.panel {
+  padding: 0 18px;
+  background-color: #fffffe;
+  display: none;
+  overflow: hidden;
+}
+
+.accordion:after {
+  content: '\02795';
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.active:after {
+  content: "\2796";
+}
+
+.para {
+  font-size: 20px;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+.recipe-of-week {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: dotted 5px #afb9c3;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  height: 800px;
+}
+
+.padding-rec {
+  padding: 3%;
+}
+
+.rec-background {
+
+  padding: 10%;
+  padding-bottom: 20%;
+  padding-top: 50%;
+}
+
+.rec-title {
+  display: flex;
+  justify-content: center;
+  color: black;
+  background-color: #FFEA00;
+}
+
+.rec-list {
+  line-height: 22px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 500%;
+  font-family: 'La Belle Aurore', cursive;
+  margin-bottom: 0%;
+  border: dotted 10px #afb9c3;
+  background-color: #FFEA00
+
+
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-family: 'La Belle Aurore', cursive;
+}
+
+body{
+  margin: 1%;
+  background-color: fffffe
+}
+
+
+/* .salmon{
+  width:500px;
+  height:690px;
+  margin-top: -65px;
+}
+ */
+.smores{
+  width: 485px;
+  height:800px
+  margin-top: -100px;
+  margin-top: 430px;
+  margin-left: 50px;
+}
+
+.shrimp{
+  width:500px;
+  height:800px;
+   margin-top: 430px;
+    margin-left: 50px;
+}
+
+.pasta{
+  width:850px;
+  height:900px;
+  margin-top: 430px;
+  margin-left: 50px;
+}
+
+.Chops{
+  width:800px;
+  height:800px;
+  margin-top: 430px;
+  margin-left: 50px;
+}
+
+.Fajitas{
+  width:800px;
+  height:80px;
+  margin-top: 430px;
+  margin-left: 50px;
+}
+
+.Nacho{
+  width:400px;
+  height:800px;
+  margin-top: 430px;
+  margin-left: 50px;
+}
+
+.salsa{
+  width:800px;
+  height:750px;
+  margin-top: 2000px;
+  margin-left: 50px;
+}
+
+.Greens{
+  width:400px;
+  height:800px;
+  margin-top: 430px;
+  margin-left: 50px;
+}
+
+.Duck{
+  width:400px;
+  height:800px;
+  margin-top: 430px;
+  margin-left: 50px;
+}
+
+ .Rolls{
+   width:800px;
+   height:1000px;
+   margin-top: 430px;
+   margin-left: 50px;
+ }
+
+.Plums{
+  width:800px;
+  height:800px;
+  margin-top: 430px;
+  margin-left: 50px;
+}
+
+ .Pudding{
+   width:400px;
+   height:80px;
+   padding-top: 500px;
+   margin-left: 80px;
+ }
+
+.cookies{
+  width:800px;
+  height:800px;
+  margin-top: 430px;
+  margin-left: 50px;
+}
+
+.soup{
+  width:800px;
+  height:800px;
+  margin-top: 430px;
+  margin-left: 50px;
+}
+
+.Bucatini{
+  width:800px;
+  height:800px;
+  margin-top: 430px;
+  margin-left: 50px;
+}
+
+.pie{
+  width:800px;
+  height:800px;
+  margin-top: 430px;
+  margin-left: 50px;
+}
+
+.Bibimbap{
+  width:495px;
+  height:1000px;
+  margin-top: 430px;
+  margin-left: 50px;
+}
+
+.Fried-Rice{
+  width:800px;
+  height:800px;
+  margin-top: 430px;
+  margin-left: 50px;
+}
+
+.Japchae{
+  width:800px;
+  height:800px;
+  margin-top: 430px;
+  margin-left: 50px;
+}
+
+.Hotteok{
+  width:400px;
+  height:800px;
+  margin-top: 430px;
+  margin-left: 50px;
+}
+
+.Egg{
+  width:800px;
+  height:800px;
+  margin-top: 430px;
+  margin-left: 50px;
+}
+
+.shrimp {
+  background-image: url("https://therecipecritic.com/wp-content/uploads/2016/05/spicylimeshrimp-667x1000.jpg");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translate(0%, 10%);
+}
+
+.spin {
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 90%;
+  padding: 20px;
+  text-align: center;
+}
+
+.active, .accordion:hover {
+  background-color: #fff9b3;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #fffffe;
+  display: none;
+  overflow: hidden;
+}
+
+ .salmon {
+background-image: url("https://images.pexels.com/photos/46239/salmon-dish-food-meal-46239.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.roll{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: relative;
+  top: 80%;
+  left: 50%;
+  transform: translate(-100%, -1000%);
+  z-index: 2;
+  width: 10%;
+  padding: 20px;
+  text-align: center;
+}
+
+.active, .accordion:hover {
+  background-color: #fff9b3;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #fffffe;
+  display: none;
+  overflow: hidden;
+}
+
+ .salmon {
+background-image: url("https://images.pexels.com/photos/46239/salmon-dish-food-meal-46239.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.roll{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+/*   position: relative; */
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -98%);
+  z-index: 2;
+  width: 90%;
+  padding: -25px;
+  text-align: center;
+}
+
+.salmon{
+  width:500px;
+  height:690px;
+  margin-top: 430px;
+  margin-left: 50px;
+}
+
+.active, .accordion:hover {
+  background-color: #fff9b3;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #fffffe;
+  display: none;
+  overflow: hidden;
+}
+
+.Pasta {
+background-image: url("https://cms.splendidtable.org/sites/default/files/styles/w2000/public/143-pasta-with-mussels_0.jpg?itok=xEbFUNBq");
+  min-height: 900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ground{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.active, .accordion:hover {
+  background-color: #fff9b3;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #fffffe;
+  display: none;
+  overflow: hidden;
+}
+
+.Lamb {
+background-image: url("http://gustiblog.gustiamo.com/wp-content/uploads/2011/12/6a00e55029641d88340162fd3089c6970d-800wi.jpg");
+  min-height: 900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translate(0%, 10%);
+}
+
+.blue{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -78%);
+  z-index: 2;
+  width: 90%;
+  padding: 20px;
+  text-align: center;
+}
+
+.active, .accordion:hover {
+  background-color: #fff9b3;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #fffffe;
+  display: none;
+  overflow: hidden;
+}
+
+.Chicken {
+background-image: url("https://readyseteat.com/sites/g/files/qyyrlu501/files/uploadedImages/img_5485_92351.jpg");
+  min-height: 900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translate(0%, 10%);
+}
+
+.red{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.active, .accordion:hover {
+  background-color: #fff9b3;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #fffffe;
+  display: none;
+  overflow: hidden;
+}
+
+.Nacho {
+background-image: url("https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2016/06/johns-chicken-one-pot.jpg?itok=7lb0YNRm");
+  min-height: 900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translate(0%, 10%);
+}
+
+.yellow{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.active, .accordion:hover {
+  background-color: #fff9b3;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #fffffe;
+  display: none;
+  overflow: hidden;
+}
+
+.Pudding {
+background-image: url("https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe_images/recipe-image-legacy-id--46138_12.jpg?itok=8-GYGUP5");
+  min-height: 900px;
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translate(0%, 10%);
+}
+
+.orange{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.active, .accordion:hover {
+  background-color: #fff9b3;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #fffffe;
+  display: none;
+  overflow: hidden;
+}
+
+.Burger {
+background-image: url("https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe_images/recipe-image-legacy-id--195529_11.jpg?itok=g1yX0PbP");
+  min-height: 900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translate(0%, 10%);
+}
+
+.green{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.active, .accordion:hover {
+  background-color: #fff9b3;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #fffffe;
+  display: none;
+  overflow: hidden;
+}
+
+.Salsa {
+background-image: url("http://www.caseyjade.com/wp-content/uploads/2016/05/fresh-mexican-corn-salsa2.jpg");
+  min-height: 900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translate(0%, 10%);
+}
+
+.purple{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -150%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.active, .accordion:hover {
+  background-color: #fff9b3;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #fffffe;
+  display: none;
+  overflow: hidden;
+}
+
+.Greens {
+background-image: url("https://www.saveur.com/sites/saveur.com/files/styles/opengraph_1_91x1/public/import/2014/2014-04/recipe_asian-greens-garlic-sauce_750x750.jpg?itok=HwIRnYU2");
+  min-height: 900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translate(0%, 10%);
+}
+
+.pink{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.active, .accordion:hover {
+  background-color: #fff9b3;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #fffffe;
+  display: none;
+  overflow: hidden;
+}
+
+.Duck {
+background-image: url("https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe_images/recipe-image-legacy-id--952512_11.jpg?itok=rePMHCWO");
+  min-height: 900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translate(0%, 10%);
+}
+
+.brown{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -65%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.active, .accordion:hover {
+  background-color: #fff9b3;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #fffffe;
+  display: none;
+  overflow: hidden;
+}
+
+.Spring {
+background-image: url("https://dinnerthendessert.com/wp-content/uploads/2018/08/Spring-Rolls.jpg");
+  min-height: 900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translate(0%, 10%);
+}
+
+.black{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  z-index: 2;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.active, .accordion:hover {
+  background-color: #fff9b3;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #fffffe;
+  display: none;
+  overflow: hidden;
+
+}
+.Pork {
+background-image: url("https://www.theideaskitchen.co.uk/wp-content/uploads/2017/10/braised-pork-with-plums.jpg");
+  min-height: 900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translate(0%, 10%);
+}
+
+.white{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  z-index: 2;
+  width: 120%;
+  padding: 20px;
+  text-align: center;
+}
+
+.active, .accordion:hover {
+  background-color: #fff9b3;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #fffffe;
+  display: none;
+  overflow: hidden;
+}
+
+.Mango {
+background-image: url("https://www.littlesweetbaker.com/wp-content/uploads/2019/04/mango-pudding-1.jpg");
+  min-height: 900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding-top: 100px; */
+  transform: translate(0%, 10%);
+}
+
+.pig{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+  z-index: 2;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.active, .accordion:hover {
+  background-color: #fff9b3;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #fffffe;
+  display: none;
+  overflow: hidden;
+}
+
+.Chocolate {
+background-image: url("https://i.pinimg.com/736x/e5/30/7f/e5307f7d7f1d7e8e9dacb591d5a96f58.jpg");
+  min-height: 900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translate(0%, 10%);
+}
+
+.panda{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -75%);
+  z-index: 2;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.active, .accordion:hover {
+  background-color: #fff9b3;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #fffffe;
+  display: none;
+  overflow: hidden;
+}
+
+.Balls {
+background-image: url("https://i.pinimg.com/originals/4d/19/62/4d1962cf8af1fb6894532d9293d6ff0d.jpg");
+  min-height: 900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translate(0%, 10%);
+}
+
+.dog{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -24%);
+  z-index: 2;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.active, .accordion:hover {
+  background-color: #fff9b3;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #fffffe;
+  display: none;
+  overflow: hidden;
+}
+
+.Vegetable {
+background-image: url("https://www.saveur.com/resizer/851TuRifi9hCaKgVlgZQDSlpM40=/1008x756/filters:focal(1000x750:1001x751)/arc-anglerfish-arc2-prod-bonnier.s3.amazonaws.com/public/UP7Z4URH4XD774WNRXN65DZJN4.jpg");
+  min-height: 900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translate(0%, 10%);
+}
+
+.cat{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  z-index: 2;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.active, .accordion:hover {
+  background-color: #fff9b3;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #fffffe;
+  display: none;
+  overflow: hidden;
+}
+
+.Classic {
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtTv_0Oi4-BeMfJzNVk37GaLoOhOUUZPZqO5n6WrXBVDQLVpOkgQ");
+  min-height: 900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translate(0%, 10%);
+}
+
+.bee{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.active, .accordion:hover {
+  background-color: #fff9b3;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #fffffe;
+  display: none;
+  overflow: hidden;
+}
+
+.Pie {
+background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMWFhUXGBcaFxgYGBgXGBoaGBcXFxcdGRUYHSggGB4lHRUXITEhJSkrLi4uGh8zODMtNygtLisBCgoKDg0OGxAQGyslHyYtLy0vLy0tLS0yLy0tLS0tLS0tLy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIANYA7AMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAGAgMEBQcAAQj/xABBEAABAgQEAwUGBAUDAwUBAAABAhEAAwQhBRIxQQZRYRMicYGRBzKhscHwFELR4RUjUmJyFpLxM0OCNFNjssIk/8QAGQEAAgMBAAAAAAAAAAAAAAAAAAIBAwQF/8QAKxEAAgICAgEEAQMEAwAAAAAAAAECEQMhEjFBBBMiUWEygcFScZGhBRQj/9oADAMBAAIRAxEAPwDROxgL4if8UQdAlOX6/GDtoF+NaEhKakB+zssf2nfyPziqS0Sme0isyITgKymeZZ0WC3iL/rELBqoKFtxHq5/Zz5S+S0vzYlj84VDBkEQ5KlOYeKGiRQyxvFtCEySnKnqYjVk9vAQjEKhr7B38AIzDjv2gCWkJSLqHjCyyJaHjByCnG8SSk+8x1aBgY7NUSES1WNrM/rEfgbFEzSJkwglQFz8ukHqZCFF0sT5Rz8uaUm0tGpY1DtWCdHiFS57SV3diC9+Rixo8SSvdjy3i8qAhI18gHgQrsSEmptLy5h7zMzdYr96cPN/glY45NJUEKJoJZ7w74GHcFpJC0haGUTqp3N+fOGcX4aWpWennqlK/pPeQfLUeUaseZtWymeNJ0jwzCIQK0jeBvFsYqKU5aiUG2Wg2PqLeERzxLLPvHIpnZVi3OLFlQvsyC7+JkbwqRiqjAjSYp2wJQMwdn2iXL7UixbaweKX6uKe2P7DoKpeMB2NolJxFMUEvDjZRUDyMJrZE8EdnlUHuNC27RK9Yl2R7FukEQxEO3/EPCsTzgXnT1AaMYocQ4jEiaUzH91x16Ra/ULwKsLZpYnDnCxNjMaHE5lQhMwqKNSEA3Lb9Yv6fFpuYJIOXKDmPPkRDxzpiyxNBl25hxNR0gWlYwToXES0YtzEWLJFicWEIngwsKEUUrFUEO8SpdWk6GGUk+iKott454hyam8S4kCoywmdKCklKg4III6G0LBjgYgDOJ9CaWeUflDZTzTtEjE0ZgFDe/p+8FHEmG9tLcDvocp68x5wKSXXKI3To/I6xS1THTD+nXnCDzSCfSJZVMQRyP7Nf1iv4UvIQTqLHyLfpFd7TsZXT0qlS/fNh0HOHn+m0EF8qHeIpy5yFolC4tmPuuRfS5aMsqfZ+hIzzJi5y+SWSkermLvhzjpAlpMzMokX3D72GkWs7jSlP5T4ZSxjm5M0rb6Zvjha0laM8GFrQSJQWB1cxMo5VeFMntAOYeCysx7MUrTJUUjTRPmxhVJjwmzMpAASHWxe7s30jNLK3ZqjGS8Ff/FV0wSaieoPtc2300ixxDiajmI7NU1ClKSCAojQ6EGGquXKWszVA3YNqLDaIfEfCUlaJc6UkD8hysxGo+sZ8bi3uxJtumQpdcZSnkTik7AGx8t4tcM9owSpSZxSFgFibOdmiupOGSEh/KLOVgR3YDqMx9IZZOP2yZOMuwmwLHZdUgomSxqHBuL3EMcVcN0a5RUUArSGSUliOQfcRW12CfyD+HVkWDmU1lFIfRopVrnBGVRUW3OsT78kip405fHSLrCsFRKQEoskcr63i0piBYF3G8B1LjASCFApL7ksfCJNPxMlyFkBvdv6xC5XbQ7wsKKivIs4YC9oqcLzzVkpKu8SO8PkBFdLxUTVpCdHuoi3kIIqTFZEogBRK78rcvCFlL7YKLgutjHFVSaZErMyipRHUMHgWxSZInBKpqS72KbkbwY1uKy5g/mSStnYhvrERddTN/wCnmAc2T9DFmPPBLTE4yfjZQDFJNmSrMBlBylxC14wUhTS5hHNjr9Iv0YjShgJMxjd8sWhmSWcoyJZ3toz84sfqfqhXjrtMCKLHUlOUNmL72B1i5kVBKLm+8AXE+LS1TlqkJIAV3SzP1brA/wDxyqCioTDrcEOI2YoyaKskY+DXAvK6g78hFvhtXmSFFx0NjGZUnGmZGVUshZDBtH5xbYPxA8xKVE6Bgbd7fyh03jdCPHyRp1PP8YIKaZ3YD8PnkqSPWCun92NmOVoyyVEB7R6lUNFcclcMA48CuN0glTgsDuLcHoTr+sE2e8V2NU7h1+4bHpyI8Ihq0CHOBKhpc2UrVC/goftAj7YK8IRc7ENBJgR7KaX3SyupGhjK/adiX4icqWlWbKXIGxFmJ5xVklpRLsUbbZnVNVqSoEEgP8I0mgpFqSCi7hwYBaDBFrUAx9I0bh+hWiVlvbS94x+tlFpcezX6ZzhfIdlYbONlP6/SLBGHdmlyC4v6dIYl087OFKmKCRqHG3WJSaYTQ6FFRL3LkE+OkcqSZsc/yWeF02dP8xRQh8xHPkzbwSKy5AlKe74aQJYbjctshZKkWI0I6esOVONFILOoNsf0gjPi6aKZRc2ECzLQ7s4vpA0MXJmkBPdu5UpjYP3Rt5x3+pJYAORQI1BBL+EVeJYwT38iiAoKsA7AXuNNYsvkqobHip7DHDq5yl05Qr8xI5bxDxhdP3gVd4bAXgPOOqUXUDr3UjYeUTf9RN3SpIPW9tbwq5Lxol4bY/N4fTOS8uYLiw3HlENHBE1Krl23YEGCjBqwraYgBjpa3Kw2ghFSkFiD5CJjk0JKc46RmeI4GtMpYC1BbEpItfZoyynxCoSospWZy7uS+77x9TKWhQV3ASA4BHwjN8SwOWalc1MoJKmKrNdg9o14s0YJpq7KZOU3dieHMYlGXLUo5gzL1BFrm/WLKowBVSXkVy5aTonIg/ForpdEl27O3OFfhFpU8pSpZGxBynyjEuMZWlr/ACXakvpj+FcLV1LNK5k7t5RHMkg7EDaLaqnSNVyw42IMM0eNVSR3mWPP6aRPRiea65KC4va8JlnCUuV1+xChJd7/AHBKcaFSh/JIubg29NRDdTgFCoAiYUubOItp+HSVTe0ShSByZw41BA1B59IVjWESVlCkzcqgGy5coYX9XjRCSa1IscY/RQDhKnWWTUJHkYXU8LdkM34pNg6bXteBTifGVU05Uqmmu3vqYG5vlD8oqRxPVTO6V620vyjbHDmau1RnlkxKVI2jgirE6WCC7FlHmR/zGiSE2jPfZvh3Y06U76k8ybmNGpknLHRxKonPy7kyhzx3aQwVRGq8RlSz31pTuxIe3IQwpaU4cxLxKSOyPiGhvD5ZtbXXzh7G1ZUBtAQ/1ifAFJjEsImgjS2ZtWI/5gbHBUlKnyuS5UXcqJJ1eIZ4ofFhIUWRNSZQfQKF5Z6PceYi5xfG/wAOpGcHvAh9Q6SxflYiMPq05Q5I1YOSlx+xIwSRLBJQEp3u/wAYiKlSVKAS/QAN8Y6biqZxfKtQHgLxFT2gU/cR6qV66RypzXSNkYNfqZey6RJF2IbeJ+D00pTiWUgDlZtbsdBY+kDc+uUkJBUVAqSDbxvbTaLnCpICFWKSpTu9yA9vCFhNctoiUKjdgpjFC86YuzZ2fnYR7Kw4FmOsXmJT06JSSHuQLXsbm0V2HAZyAebeG2kLzTex3ajaG/4MncE6Wi8k0EuXKzFNgDmFuWjHnHSQlIzKUIkzKpE1BCVAgi/L4awJqxHJ0Z5NlHMohLByWGgflFYZIBLlRfTUkEaO0H8/DpSepOt2hpPD8pWmp82iyGfiXKarZWcH8QSZR7ML7tyXBfrr1i0xbGu8DKnBV3ISwI8j4QxW8FKTdDRQ1OHKkreYl2v4wZH9oIvHKVoOsM4hT2ffBUU3cWt4nxhNXjiFpzZW8RtrqIVgFTImIADAsLRYYphIUl0JzH+klh9tBc5x0US4qe0BqeMkJIAlBW9gSw3JHKCWXjlMsgFj/dZhHn+mk+8kBB3Zr+PK8NHCSk2AvqQkfOKpznDpDv2pD6cSps3dI8nNvACHJ01C1Jy3D32eBDinhmuLTJM5bpb+UMqARuxAF/EwzwniUxQKShYUhRSsKFwpNlX3Yw2WM/b5Kvz+BI8b0FXEeHGcqWZKynKCDlLEnS/PT4wPV3Dc0i6lk9SYKaDFUSw7pfycxaSMQRN94DpDY8uOlemLJzXXRitfwqgu6SFcxY+cDVBhXZ1CUq913zGwYXLx9HLwuTMsUC41tGWe0HAZQnyZaCXmKYudjr6NHQwZZdN6ZW+MvGzSOF0jIG6fKDKnHdEDeAyAlIAGkEqdBHTxr4mGXZ87YlxrVTHCVZA+iQx9TeHeBKCZV1qFTCVIlfzFuXcg9wF+am9DAopezk+Fo2f2T4N2VL2pSyp5znnlFkD5nziEtkB/RoYPFLxhNKZJZ32brF8AwEDfFM9paiqwS58QA7w0+ho9nz/i1PM/FJWVMsqC7fkyqDedo1nGx+Kou3QBnyCaPFNpyW8HPkIz2rQmatc1KhdVugg19n9a0tcpVwlQUP8ABfcmDw0PnGKM1J8GbJxcfl5BiTXTQCEAD1hylnTlHvHN0IizrMLMqZMla5VMDzGqT6EGHqSnCSOcYJwirVFyyvsT/G5MghM1grUAm5HQHWJ4x7OQADkOiUgqJ8SGA8zFPxthqFCVMKQSksHh7h2TcExX/wBeDjaB5fNBbPwqZNkBSBcE/wAtLaeO5iiw2dLKilKu8hXeQDcEbKbTwMHWATrgMWO+2m/KKr+Fy0TpykpAK5i1E8ySSSecO/SwaUl30UrNJOgYxTC11JIW/ZvZAsn/AMm97ztE/DcGMtICSQBsCw9IuVqbZzHq12ANieUDhHrsnnJoiDDFHQx7LolJPvekWMpTpZyfvpEFUkh2S58WHUmM+XHBJNIeLldNnTK9UljNmdxwVEpNnsLjSBji0LmpzyMsxPMEGLri2jUaN0Fldogv4O/6QGS6cu7qlLOpSSAT1ESnUVZdjjFuyNSUMyUkFCymZyOl9hyi3kcQ1kpQJClhrn3gfIaQ3MmZgAtQWob5WP8Au5+UMfxRCNAsncM7eb3g5Sk+r/0X2q3sMcG4sMzukFT80kB+QLc4IJeLpUUgh7+n6wBUeMyyod9D2IBIBHlrBXgqs6mUQQfdAAcBtzvFPuZFLj1/cz5IQ7on12KplqckAC5Orjw1eB6mxqmDqYm5KiTe51IMXNZhcpXSM24xoSEKCCU9Rr6xZ8nJJsSCi0H8k0Cy7gKIsSfrD6aCSVd1YHnHz4jEKmVYTCoAuHueWusODi+rTYkemVvSNsvQuX9LFc4LttH0FMSmUD3yR0VfnbaBHiKZKVOk5A8wLGVy7Ztd2LRmNRxlUqQwUAPEn5wT+zuQudPE6aoqKbJfQE62END0koNW6Qc4LrZt2Eo0i8aKvC0aRaER2F0c1ny3g+GqqaiXJS4zryk7hOqj5JBMfSWG04SAlIZIAAHIAMB6CMn9keEZpkypUPd/lo8VXWfTKPMxr0tJF3s2jfWIWkA5NXAD7Te/RzQlTF8tixZxmHpBnOWe6Em5O4JsH9NIFuNUAyJilMMneHi135xVNtrRZCk1ZkwCEIHe7rWJ+7xY8K8RShUy0OWWezfQd7u/NoAgvOpZcgOcr+PziVJnplpe2dJBFnbKQQehcRnjgSdvs1TyuS/Br3F08S0yZ5/O8lZ5LRp6p/8ArA7R46hRIQCpW2wfk5giq5KK2nqaQrCTMyrkqJYJmgBSL7OS3mYx1OJTKUqQpKkzUkpUFG4L3eDJ6fn8l2VwyUqZpfEdXmQmXqxB8PtoXhS2AMAOB8RTJiyJveLai3qIJ8PxDNmazAt4tGf2njVMa1Lo0KhxMy0lXL00hyViQXLC7Oq9iCx3Di1oAP4iv8KyjcpV3n3LwngWuMumRKWT3XvsMxJb4xmlz4tr7LXjSaTDvt1F38h+phKKplZVqBJDga/GKydVE6XDau1o5JSO9lzK015RlU2nbLlBUE9HPTYvrpEStqFpPvAl9LD75RTrxFQIZLHZrtFfxLisuimSzMfLNfvsVB0t3SNU6v5Q8HLJ8UgcFDbCSZWBSOz1YuS1n2bn+0QlSkD3soBsH3MCdfxCopeQkFJDghwC+7wLVmM1TglJU35XAS3IAXi2GGU9BxS+Tf8AJp/4KWNMrnR4rF4FOmKspCE9ACernbWIVOZc2Slakql5kjvp7wB3BB3h2mVWEE0lbSrUgZUoUlSVMNr668uUV48bb7osfwVo9424KlqlSyGVNsFLFiUAGzaO51aJPAqTIT2alKto5f5xfcO1c1clKa2XlnB83IkHUEHRusP1uFyj3goo6s+vhC5cjceF9FCa8oVNkTVKcKs1uXhEOowDtAc5BcaXh3+HVCAFBeYDQpLgjqIYPE02T/1EZhpYN6iK4Un8kx6bXxoFsR4Nb8hI2MD+IcMpIKcp+saAvjiQpwqXMQwcizG+17xQ4jxnRTAQULzbWA56n4xvh7l/GyGn1JGUVNAqVN7NXMMeYjYvZvICZCFKsVm3mS1vKADGZ8pZCxqNHFxudI1vgGlKZEvNrlHRnuw8NI6MZOdWZcsPbTD/AA5LCJwiPRpYQ/GwxgnwZhXYU0uW3ebMr/JV1emnlBMtNvCI9EiFV1QJctS1aJBP7ecR0gGpZVmIIsND+3rAD7U63LIKAbqIBG7a6QaYZWFaSVJKTax6gFvEaRkftSxHtKgIBsgN5nX6RnnJOCryXQi+ezOZ1PlNo6hw9U+ZlGls6iWSlL3JP28P1JsYt6imyD8PmCUoSkzFNrMN1eLOw5N1MRyosq3R2NYsO1PZElIsk6Ps7fekVmJYl26gqelMxQAGYulRA0BUm58TFrIpCtQTLMsk6OGPS5BhzsklfYVMtIXcy1Dundw4AcFrdRApMl40iqlUlMsDsc0qYWAKlZ0P4m6fG8NU1TMp5ipc4EH9dGO4POJNZhITMWlCmCE5r66OPjaH5yPxVMbfzZIKk8ykXWn07wgtPTFcWtogYliR7LKS5PyeCjhplSsp3DQBTJNgSSX320DecW3DdLUKzKlLKUpD30KuQ++UJLFFRGeRyZqFFZASNrekLXIJZyQ17N8YqMMxGbkMxUsi2m5UCzjprfpHtPiUyZmKz2Y0YakW/TbnHKzRpm3FFtWEOHrQ7P3hqX0ih4/q5dWqRIUkXnSw7kADRbn/ABceLQ3NnFFpctaiRaxAv15REl0KgsLXcgu30hMbcHyGnCLDnEcFQUAJQAkJAS2jNYDpAdimBNcRouHZZspIcBQAsD8oZm4U9nHqIa7acShS46MtozNkKdCvFOqT4jSL6oo5FUkLYy5trpOUjxbWL+t4dSdWEV07CSk90+EV5FK76ZZHIvBXy01MguKw5QCDmOYN/wCTwweN5aFCWZyZpUpKe4GZyBc6RV8Y4SsyJiiolhm3a14AqDCaleRcuUtnBSohk2uCFGxjVg9NHNDlkl/AuXM06SPoIYgtgAooI0bQ+WkTZNfJm9yegBRs+x69IDMMxlcoDtUZ5awCsC5QrdujkwRSOxnICpM1JJ/KS99L8owQx5YbjtfQ8oryv3I+N8GpfNLJyl+u0Zrj/Dq0Ev5QfzqiokqzSyqwfKcykEPy2+cIruK6Waj+YClYFyQCH01EbcOTytfgWWOSXdoyjD8MUmcnOCQdhu23xj6G4dkskRlGF1CKiuQmWxRLclty9vSNlwWXYCOphblK2YsySVIv5I7sew3LqEklAUCpLBQcOLPcecOGNZmGKew+EQa2nVMmpBbs0glQ5qdJAPRg9+Yib2gAB0eKvCKgrXOJDDOG5EZQAR6N5RXOUbUX5HinTY9iU9MqWpVgACfmY+esbqVTZqpih76iR5nRuka97S8RCKQgEOsgAvtrb0jIJhASlSveURc/GKMz+SRowRfFsrq2nCZZUSxJYCzesW06cmapUzN3VM2juwKrb3gfxvEUqSUJL3ELwqpCJIzEOQWG7OYbhqxeVsLqBbpZIBSSxDN5O1t4mmQEyylSRnBIC1MT3S4OZ3DcrX6Xgf4ZxhGYCaA4JbUAhi9x+bRjEziXEEolFElSVKWoJTfvpfYgh+d94WKdlsmitoEKIWVNmWD5AFw3S/wiPhVX2FSAq4JAI5h2Pkzxc8M0p7F5hClqUTYgt0PIuDaKbGZYTNDC7t6/ZiiOS8zRdKH/AIlclITNmSjcZ1JHkohP31g+wuUiRKTLDWFydzqfjABWIKqqZlFhMU52AzM8HEnFZegQksHOYEDVj3iPC0Hq20kkU+mhyexzHq9suRQXZiEggjr4RCwdc5U9CiglALqfk2pOlix8oJ8PXKmD3EJc2KTbq8Tk0+oIG2zRy5ZlVNbNv6FRd0ZlzEAnQjy9YhVOFX7od9N4goRMQSUKYf07AcmiWMYKA60G24/fSMvKXRU+9HtKsy7F7WBGoi1TXBntpqIHxxdIWspUAAEklRIHl8YckYrLmv8Ah0hZ5g9weKtH6Q3tSjtMj+6L/t0KFz5HaKrtpczPkPuli9r9IhVk2oSgqEpKlf0JWOfvZz8m84Ccax2uAP8A/N2aeebP8A0XQwzyadf5JVIMDMQtXfIyg3cAj03EW9ahE5KklIBHucm0cNybTaMs4Ox8zJipc65JzJIFrbEbNGsYepE0gF0rIsdnA1bm8NPG8UuEhrTXJABjVHOkKBTcM7i9uogVqq9cs55ZUlT/AJC3XTQ3jdMQwxKkBKmJIY7MbXjMeIuH+zJOUlJv43uUnnGjFUJbGWXmqGcI9ppYIqE5km2dI7w8Ub+sK4qxihKAoBCioOCjKSeTp58xaAbEKEgqDaaH71ipQhy27x0Y4ccnyRkyZJQ0an7M5QmTVzUhIS4SGGU8y4H6xt2FSgGtGYey/DAiUnmRmPiq4+EaTiVT2NLNmaMhh4mw+Ji/Ekk2Zcsm2ZfjuLTU1U2ZLWyjMd9wH7oPRt4K8O4+HZjtE5lbkWeKEU6KiWQkZVgBizuBs5v6xXK4bnj3ZSyOgt8TBb8FJq9W2VzcBy2/lFXwxNzJUol3LHxDvaLNKgevSGJFGhAaX3RmzEbQs8TeRTXgujNcXEzH2sV2adLlJIZI02uf2gMxw9xAZ97H7+xBfxpwrWrnTJqZPaIJcdmQS3+Nj8IDKiVMKhLmgyyLALBQfIEXilqTlbRrhKKhSZTVIQpICUsfKIJBB8Iv5mHtotBG7ERDn042YkcosUipwIlFIKwpSRmUkHuB8zNdQA94DcCFS7tNKnVt5WeOTKIVmSSCm4IsQenKH5tWiZ/1kHN/XLYKP+SD3Vn/AGnrFnfQm4kmfiayRkJBb3RoBr9flBpwRw8uoHb1PuN/LSfeOne8LWgD7eQliiaoN/8AEQb8zmI83jV+GqsLlpCCBlSAAdC1o5/rG8aTS7NeKbmuN6Ja8Hky0lkZXueZ6vFJPkyw6QnN4tBxK7yGsV7OdvlA7jGHLU5SjTcf8Rzfcm3t2W44xsEpkghXdJSx00+EXOHU9VNA7+VP9RD6cgdYTQU4UtObZScw2NxtB9S0riwYOe6LBtvCCUn15GyUgZwqgqAT20xKgNGSUv6kxIxTBhNsVqSG/L+8FMykBAAFxfwiHikopT1jRCF7ZllP6Mzn+z1CpqXnLUjM6gWcjkFDSC+nUEJEiUgICAxDBgbswHl6x1OFrUcpDi931Fxp1iJLqlGcHsXJJ6nYkDpFeTI5yp9I0YoasarZ6+2yFRG4F2L3sQebxTYqomamWgkqLhQ5F7X8IvsVU5UpKQFJ3Zn31+o5wJU1QRUOoByS7cz+8P7aimy+Ow8wzhOTKlnIhPaKDrW1ydWHR4qKmqXKWynsbHeDnh+clcoEat8tvvpFPj2CqWolv+Yqy4nNKXZmhk4zaZApeKGWBOPcykZgL6Wfr1i0mjtJILCYhtPzMq/1jPauUuWrpHUGOmUSyiAXcG48omCaRc4QluI9xVw+QkLlpLPfw5EC9j9Yz+bQgTQG72bKQPS2+saLV8eAhQXLSoWbvFLtz1OnWBvA5yaquR3EgAlTC/gH3bnHSwOSRnyxpbNg4QoQhADcok+0CcRTy5STda3P+KR+pEWOCU7JAiFjtCqfUf2IGUdTqfi143pVGkcyTtgrgtEtXui/Ib+caJhYWmUkTGzM5a4hmgoUoRYX+JZ9YsAmwhoxogoJVQ0S0TgYqlG3397R6qxsWgsmi5CoTOlpWGWlKhyUAR8YqBWqT1h5GJjeJsgjT+EaNf8A2EDql0nV/wApimrPZlRrLhc5OtswWA+vvB/jBXLrEneHROELwj9Dqcl5Myr/AGSr/wC1VIV0XLKfiCflA5iHsuxBHuIlzB/YsP6KAjcwoR7mg9tB7j8nzRiHCtZKtMpZo8ElXxS8O8MrqpMx5aF5XGZKgUggdSGH7RvmL4WqbpMUj/Eset4sJdMnKEqGYM17xVKEpXFrX5LFOMaYDUeOaMxI56jpaJVTivaBnKOjWLdRrBROwKkUXNOh+YDH4RBncJUxfKZiX5KceigY5r/47Iv0s0r1WPygIMpSV5hlJcO1jBbhGJA2JYiEr4Pb/pz/APch/kqKHE+EMQBzSJkokad4pPoUtFT9Fmvoslnxz8mgJmaEaHlqP1iuxeaCSh+8zi2w6wO4LOxGX3ammI/vQpKkHxu4gmlV4IaZLIPNvrDNzi+EtFNR7WwNk1JlqUCSka+LbQtcpLFabqd8pGYEdA7pML4moge8gg7nn6RCw7F2KQXewN2LdIxyTUrRtxu46J+K05mSR/UtgG2b73gFxTD1omCxBADuGJPWNLnYihfu6kjUMbNpttA3X0gmE5UqF/ePeT0di4MXrJb1saDa8BF7Pa7+VlUXOt+R/QvBXNmy1kgKBI1HKMqwTEDIXezEh9r7GD2hnyqhLpIC+QOvUc4bHla+DM+fFvkVvEWGoUCctty0AVfhoD2jTQ6B2ZSSC7v3j5DQiA7GZakq7ySE9dQ+9os03aK42tADW4cDnBFyD8oIfZFghftj4RWY5LUzoupZAAe7ksI1vg3BewkoSQxYP6RuwptUVZnSsK8OQwflHSJNupLnziTKQyQIWkffpG4xjaUsIWkRxj1EAAkuPFG/30j0/foISYQYjzywHhENU9Ls4flpFjMb5/XrEGspgrbY/WIAbK23jz8cobwIY7QzZbqkzFo6A232NuW0DiuJKtFipKm1zJv6hoORBqgxsjWH5fESdzGPjjKb+aUPIn5EQr/V4/MhQ+I+EMrA2mVjyD+YesTEYmg7xhyOKJZ/M3jaJUriAflX6GJsg25FWk7w6JwjGpPEkwaTD84nyOLZo3BgsDWRMEegxmsjjRW6fQxYSeNU7hQ+MFgG85Lgx1M4SAdYF5HF8k/mbxtE6TxHKOi0+sLxXLkTeqLyZLSrVIPiAYr5uCUy/ekI8coB+EeIxdB0I9YXLrkv71oJRi+0SpNdMZPDVPslQ8FH6xEncHyTouYPMH6RcJrU84WKlPOK36bE+4odZ8i6bK9XD8opyryzB/egE8tRd4olcFzETc8ielCXcIKVW8C8FvbDmIV2w5wsvR4X4Hj6nKvJUy6SrYBapSwBr3gflDFdw6qakJUtKRuySfmYve1HOPRNHOJXpsaFeaTKDC+EKeSoLYzFp91S75f8RoILKOQ1/SESZRO0TJabRdGKjpFTk32L2hJj0R4TDEHio8ePSbRybwACS9PM/WEn7+MLUPv06Q2B9+nSEGOO/wB8/wBYQR9/Zj0aH75QlJ0++RgArq6nCnFoCMcwV3IFx+0H6w5++nWKytkuD1Hr7sI0Bkc+QQbhj8IimXbSDnFsHCmbVj/+dIFJ0kpsRo9xp96QJkNUVK5I5QyadPIiLOZJ9BDC5Z5bw1kEQII0WoecPS6qaNFv4iPTK1bWFilNomwHpWLTRqEn1ESZfETe8hQ6hjENUgJ94geJv6Q2uYjQv5AtE2BeSuIJJ1JHiDEyTiko6TE+ogT7BB0U3iCI40Y/qT6wWAdSaoH3VehiXLrF7LPrGdCmA/N/tc/KFGetGi1jxUR8IANMl4lNH5zEqXi03+sxlAxuoHurPmH+cSZPE9SNSk+IP0MAGsScVmbqifIq1n8xjLaTiuo/9pKvAmDLh3HVzFpSuVkBbvZnFyw25sILAOqWWTr0ggoKdg8QaSSxA8H+FotpIuR5fL4xIEiHAYR9/L949J0gAU948J+/vwjlx4YkDgbff3tHIVHjQktziABZvv0jwN9+UOKR9+seZdfH9YUYaAt99IQPv0HSHCmE5YAI6vv4dIiTh9+nSJ6kffpDC5X0+kQ0SU0ynv8AfTppA1i2FgpGm58rXEGikX++kQZ1O/p82t5wgGX1FOUlju3htoYjzBr4hoNcRwsLDEem3u6XgTradUtWU3v8IExWiMmU0OLt3UkAs6lbJH6woqYFXIExV16yEoD+93ldSdPKJWyBMzEQHCJYJ/qVcnq0RxiE08vQNDRT11+9YUABzb5xZQChXzQPet4CPfx81rn4CGgnp4Q5JlPaAD1VTMP5rbswjkSrv9H+MTJdMBrp984cC5YDZr9L/KIsBjsWPTm8SpNJf3bbWhSKhx3ZSlDZ2F44md/ZL8S5iLAsKKmyHXXnBNhsnKUEFg97vqf1gIMpZ96as/4hvjFjQ4dMVZJWE8yswrQH0Hhy8yUKfVIc9Rz8dYsQbn7bX9oC/Z5VKy9ksuR7p1cANfygzS5PiPoIsi7QEgn5frHpNoazaeH6QoGJAeWISNI5KtPKPEnXp9/SJA8OkeEHaFjeEu0QAPlMeZb/AH1jo6IGEKTp984QRr9848joAPFD6w0R9Y6OiAI60RFXKv8AfSOjogkgdi5Hj+kDWJ4elQVty6aO0dHQgAtVyGCk/wBp+IhkykqkS1EajL1tHR0ShSJMpAzAmI65aRztHR0MQdKlA6D1MSfwpZypvD9Y6OgYCUy5f9JJ5kxJRJI0yp8A/wA46OiAHxIJLFRb026QpaEJFx8OkdHRADtNMUodxKR1USfgBF3RYBUzUuJ6Ug7ANr5HlHR0BIc8A8Hrppip02oXMU5SEv3B16wdoT3vX6x7HRYiBWX4P9YWge94fWOjokBRFo93eOjokD0QkKjo6AD/2Q==");
+  min-height: 900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translate(0%, 10%);
+}
+
+.wasp{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.active, .accordion:hover {
+  background-color: #fff9b3;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #fffffe;
+  display: none;
+  overflow: hidden;
+}
+
+.Bibimbap {
+background-image: url("https://futuredish.com/wp-content/uploads/2017/12/Dolsot-Bibimbap.jpg");
+  min-height: 900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translate(0%, 10%);
+}
+
+.bug{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -39%);
+  z-index: 2;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.active, .accordion:hover {
+  background-color: #fff9b3;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #fffffe;
+  display: none;
+  overflow: hidden;
+}
+
+.Fried {
+background-image: url("https://www.sbs.com.au/food/sites/sbs.com.au.food/files/styles/full/public/kimchirice.jpg?itok=-Kh0vho");
+  min-height: 900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translate(0%, 10%);
+}
+
+.insect{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -49%);
+  z-index: 2;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.active, .accordion:hover {
+  background-color: #fff9b3;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #fffffe;
+  display: none;
+  overflow: hidden;
+}
+
+.Japchae {
+background-image: url("http://www.pbs.org/food/wp-content/blogs.dir/2/files/2012/02/jap-chae-2.jpg");
+  min-height: 900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translate(0%, 10%);
+}
+
+.BTS{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.active, .accordion:hover {
+  background-color: #fff9b3;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #fffffe;
+  display: none;
+  overflow: hidden;
+}
+
+.Hotteok {
+background-image: url("https://houseofnasheats.com/wp-content/uploads/2018/02/Hotteok-Korean-Sweet-Pancakes-14.jpg");
+  min-height: 900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translate(0%, 10%);
+}
+
+.EXO{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.active, .accordion:hover {
+  background-color: #fff9b3;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #fffffe;
+  display: none;
+  overflow: hidden;
+}
+
+.Omelette {
+background-image: url("https://www.koreanbapsang.com/wp-content/uploads/2012/04/DSC_1162-e1461517042923.jpg");
+  min-height:900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translate(0%, 10%);
+}
+
+.Twice{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -120%);
+  z-index: 2;
+  width: 90%;
+  padding: 20px;
+  text-align: center;
+}
+
+.active, .accordion:hover {
+  background-color: #fff9b3;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #fffffe;
+  display: none;
+  overflow: hidden;
+}
